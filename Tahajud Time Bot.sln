@@ -3,7 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32630.194
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tahajud Time Bot", "Tahajud Time Bot.csproj", "{90E992CB-3444-45FD-A733-FE126EABF2E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tahajud Time Bot", "Tahajud Time Bot.csproj", "{90E992CB-3444-45FD-A733-FE126EABF2E9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{77938B63-D5EA-41EC-A10A-7750D18CDBDB} = {77938B63-D5EA-41EC-A10A-7750D18CDBDB}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleTahDT", "..\ConsoleTahDT\ConsoleTahDT.csproj", "{77938B63-D5EA-41EC-A10A-7750D18CDBDB}"
 EndProject
